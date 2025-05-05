@@ -1,0 +1,111 @@
+Index: src/main/webapp/WEB-INF/views/index.jsp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><%@ page contentType=\"text/html;charset=UTF-8\" language=\"java\" %>\r\n<html>\r\n<head>\r\n    <title>PresentChoice</title>\r\n    <meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\r\n    <meta content=\"\" name=\"keywords\">\r\n    <meta content=\"\" name=\"description\">\r\n\r\n    <!-- Favicon -->\r\n    <link href=\"/resources/img/favicon.ico\" rel=\"icon\">\r\n\r\n    <!-- Google Web Fonts -->\r\n    <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\r\n    <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\r\n    <link href=\"https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap\" rel=\"stylesheet\">\r\n\r\n    <!-- Icon Font Stylesheet -->\r\n    <link href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css\" rel=\"stylesheet\">\r\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css\" rel=\"stylesheet\">\r\n\r\n    <!-- Libraries Stylesheet -->\r\n    <link href=\"/resources/lib/animate/animate.min.css\" rel=\"stylesheet\">\r\n    <link href=\"/resources/lib/owlcarousel/assets/owl.carousel.min.css\" rel=\"stylesheet\">\r\n    <link href=\"/resources/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css\" rel=\"stylesheet\" />\r\n\r\n    <!-- Customized Bootstrap Stylesheet -->\r\n    <link href=\"/resources/css/bootstrap.min.css\" rel=\"stylesheet\">\r\n\r\n    <!-- Template Stylesheet -->\r\n    <link href=\"/resources/css/style.css\" rel=\"stylesheet\">\r\n\r\n    <%--vue2 사용하기--%>\r\n    <script src=\"https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js\"></script>\r\n</head>\r\n<body>\r\n<div id=\"wrap\">\r\n    <div class=\"container-xxl bg-white p-0\">\r\n        <!-- Spinner Start -->\r\n        <div id=\"spinner\" class=\"show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center\" Style=\"visibility: hidden\">\r\n            <div class=\"spinner-border text-primary\" style=\"width: 3rem; height: 3rem;\" role=\"status\">\r\n                <span class=\"sr-only\">Loading...</span>\r\n            </div>\r\n        </div>\r\n        <!-- Spinner End -->\r\n\r\n    <!-- Navbar & Hero Start -->\r\n    <div class=\"container-xxl position-relative p-0\">\r\n        <nav class=\"navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0\">\r\n            <a href=\"\" class=\"navbar-brand p-0\">\r\n                <%--아이콘 부분 수정하기--%>\r\n                <h1 class=\"text-primary m-0\"><i class=\"fa fa-gift me-3\"></i>PresentChoice</h1>\r\n            </a>\r\n            <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarCollapse\">\r\n                <span class=\"fa fa-bars\"></span>\r\n            </button>\r\n            <div class=\"collapse navbar-collapse\" id=\"navbarCollapse\">\r\n                <div class=\"navbar-nav ms-auto py-0 pe-4\">\r\n                    <a href=\"index.html\" class=\"nav-item nav-link active\">홈</a>\r\n                    <a href=\"about.html\" class=\"nav-item nav-link\">소개</a>\r\n                    <a href=\"service.html\" class=\"nav-item nav-link\">고급 선물</a>\r\n                    <a href=\"menu.html\" class=\"nav-item nav-link\">가성비 선물</a>\r\n                    <div class=\"nav-item dropdown\">\r\n                        <a href=\"#\" class=\"nav-link dropdown-toggle\" data-bs-toggle=\"dropdown\">선물 추천 대상</a>\r\n                        <div class=\"dropdown-menu m-0\">\r\n                            <a href=\"booking.html\" class=\"dropdown-item\">가족</a>\r\n                            <a href=\"team.html\" class=\"dropdown-item\">지인</a>\r\n                            <a href=\"testimonial.html\" class=\"dropdown-item\">친구</a>\r\n                        </div>\r\n                    </div>\r\n                    <a href=\"contact.html\" class=\"nav-item nav-link\">추가 설명</a>\r\n                </div>\r\n                <a href=\"\" @click=\"moveFocus\" class=\"btn btn-primary py-2 px-4\">Search</a>\r\n            </div>\r\n        </nav>\r\n    </div>\r\n\r\n    <div class=\"container-xxl py-5 bg-dark hero-header mb-5\">\r\n        <div class=\"container my-5 py-5\">\r\n            <div class=\"row align-items-center g-5\">\r\n                <div class=\"col-lg-6 text-center text-lg-start\">\r\n                    <h1 class=\"display-3 text-white animated slideInLeft\">오늘의 선물 추천</h1>\r\n                    <p class=\"text-white animated slideInLeft mb-4 pb-2\">다양한 선물들 사이에서 지인이나 가족, 친구들에게 주고 싶은 선물을 찾아보세요~!</p>\r\n                    <p><input id=\"searchInputText\" ref=\"searchInput\" type=\"text\" style=\"width: 50%; height: 50px; margin-right: 10px;\" placeholder=\"\"/><a href=\"\" class=\"btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft\">Search</a></p>\r\n                </div>\r\n                <div class=\"col-lg-6 text-center text-lg-end overflow-hidden\">\r\n                    <img class=\"img-fluid\" src=\"/resources/img/gift-1.png\" alt=\"\">\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n<!-- Navbar & Hero End -->\r\n    </div>\r\n\r\n</div>\r\n\r\n\r\n\r\n\r\n\r\n    <!-- JavaScript Libraries -->\r\n    <script src=\"https://code.jquery.com/jquery-3.4.1.min.js\"></script>\r\n    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js\"></script>\r\n    <script src=\"/resources/lib/wow/wow.min.js\"></script>\r\n    <script src=\"/resources/lib/easing/easing.min.js\"></script>\r\n    <script src=\"/resources/lib/waypoints/waypoints.min.js\"></script>\r\n    <script src=\"/resources/lib/counterup/counterup.min.js\"></script>\r\n    <script src=\"/resources/lib/owlcarousel/owl.carousel.min.js\"></script>\r\n    <script src=\"/resources/lib/tempusdominus/js/moment.min.js\"></script>\r\n    <script src=\"/resources/lib/tempusdominus/js/moment-timezone.min.js\"></script>\r\n    <script src=\"/resources/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js\"></script>\r\n\r\n    <!-- Template Javascript -->\r\n    <script src=\"/resources/js/main.js\"></script>\r\n    <script src=\"/resources/js/views/indexComponent.js\"></script>\r\n</body>\r\n</html>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/webapp/WEB-INF/views/index.jsp b/src/main/webapp/WEB-INF/views/index.jsp
+--- a/src/main/webapp/WEB-INF/views/index.jsp	(revision 21bfc33da90975ea1f1e60a05e6964f92cdefade)
++++ b/src/main/webapp/WEB-INF/views/index.jsp	(date 1746444333202)
+@@ -30,19 +30,20 @@
+     <link href="/resources/css/style.css" rel="stylesheet">
+ 
+     <%--vue2 사용하기--%>
+-    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
++    <%--<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>--%>
+ </head>
+ <body>
+-<div id="wrap">
++
+     <div class="container-xxl bg-white p-0">
+         <!-- Spinner Start -->
+-        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center" Style="visibility: hidden">
++        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+             <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                 <span class="sr-only">Loading...</span>
+             </div>
+         </div>
+         <!-- Spinner End -->
+ 
++<div id="wrap">
+     <!-- Navbar & Hero Start -->
+     <div class="container-xxl position-relative p-0">
+         <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
+@@ -69,7 +70,7 @@
+                     </div>
+                     <a href="contact.html" class="nav-item nav-link">추가 설명</a>
+                 </div>
+-                <a href="" @click="moveFocus" class="btn btn-primary py-2 px-4">Search</a>
++                <a href="" @click="placehoderInput" class="btn btn-primary py-2 px-4">Search {{message}}</a>
+             </div>
+         </nav>
+     </div>
+Index: src/main/webapp/WEB-INF/js/views/indexComponent.js
+===================================================================
+diff --git a/src/main/webapp/WEB-INF/js/views/indexComponent.js b/src/main/webapp/resources/js/views/indexComponent.js
+rename from src/main/webapp/WEB-INF/js/views/indexComponent.js
+rename to src/main/webapp/resources/js/views/indexComponent.js
+--- a/src/main/webapp/WEB-INF/js/views/indexComponent.js	(revision 21bfc33da90975ea1f1e60a05e6964f92cdefade)
++++ b/src/main/webapp/resources/js/views/indexComponent.js	(date 1746441268626)
+@@ -1,11 +1,16 @@
+ const vueMain = new Vue({
+     el: '#wrap',
+     data: {
+-        message: '안녕하세요, Vue!'
++        message: 'Vue'
+     },
+-    method:{
+-        moveFocus() {
+-            alert("도착");
++    mounted() {
++        this.message="함수수행은 됩니다.";
++        //this.placehoderInput();
++    },
++    methods:{
++        placehoderInput() {
++            this.message="함수수행";
++            console.log("찍히나 확인: "+this.message);
+             this.$refs.searchInput.focus();
+             document.querySelector("#searchInputText").placeholder = "검색 내용을 입력하세요~!";
+         }
+Index: target/mvc_test/WEB-INF/views/index.jsp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><%@ page contentType=\"text/html;charset=UTF-8\" language=\"java\" %>\r\n<html>\r\n<head>\r\n    <title>PresentChoice</title>\r\n    <meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\r\n    <meta content=\"\" name=\"keywords\">\r\n    <meta content=\"\" name=\"description\">\r\n\r\n    <!-- Favicon -->\r\n    <link href=\"/resources/img/favicon.ico\" rel=\"icon\">\r\n\r\n    <!-- Google Web Fonts -->\r\n    <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\r\n    <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\r\n    <link href=\"https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap\" rel=\"stylesheet\">\r\n\r\n    <!-- Icon Font Stylesheet -->\r\n    <link href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css\" rel=\"stylesheet\">\r\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css\" rel=\"stylesheet\">\r\n\r\n    <!-- Libraries Stylesheet -->\r\n    <link href=\"/resources/lib/animate/animate.min.css\" rel=\"stylesheet\">\r\n    <link href=\"/resources/lib/owlcarousel/assets/owl.carousel.min.css\" rel=\"stylesheet\">\r\n    <link href=\"/resources/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css\" rel=\"stylesheet\" />\r\n\r\n    <!-- Customized Bootstrap Stylesheet -->\r\n    <link href=\"/resources/css/bootstrap.min.css\" rel=\"stylesheet\">\r\n\r\n    <!-- Template Stylesheet -->\r\n    <link href=\"/resources/css/style.css\" rel=\"stylesheet\">\r\n\r\n    <%--vue2 사용하기--%>\r\n    <script src=\"https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js\"></script>\r\n</head>\r\n<body>\r\n<div id=\"wrap\">\r\n    <div class=\"container-xxl bg-white p-0\">\r\n        <!-- Spinner Start -->\r\n        <div id=\"spinner\" class=\"show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center\" Style=\"visibility: hidden\">\r\n            <div class=\"spinner-border text-primary\" style=\"width: 3rem; height: 3rem;\" role=\"status\">\r\n                <span class=\"sr-only\">Loading...</span>\r\n            </div>\r\n        </div>\r\n        <!-- Spinner End -->\r\n\r\n    <!-- Navbar & Hero Start -->\r\n    <div class=\"container-xxl position-relative p-0\">\r\n        <nav class=\"navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0\">\r\n            <a href=\"\" class=\"navbar-brand p-0\">\r\n                <%--아이콘 부분 수정하기--%>\r\n                <h1 class=\"text-primary m-0\"><i class=\"fa fa-gift me-3\"></i>PresentChoice</h1>\r\n            </a>\r\n            <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarCollapse\">\r\n                <span class=\"fa fa-bars\"></span>\r\n            </button>\r\n            <div class=\"collapse navbar-collapse\" id=\"navbarCollapse\">\r\n                <div class=\"navbar-nav ms-auto py-0 pe-4\">\r\n                    <a href=\"index.html\" class=\"nav-item nav-link active\">홈</a>\r\n                    <a href=\"about.html\" class=\"nav-item nav-link\">소개</a>\r\n                    <a href=\"service.html\" class=\"nav-item nav-link\">고급 선물</a>\r\n                    <a href=\"menu.html\" class=\"nav-item nav-link\">가성비 선물</a>\r\n                    <div class=\"nav-item dropdown\">\r\n                        <a href=\"#\" class=\"nav-link dropdown-toggle\" data-bs-toggle=\"dropdown\">선물 추천 대상</a>\r\n                        <div class=\"dropdown-menu m-0\">\r\n                            <a href=\"booking.html\" class=\"dropdown-item\">가족</a>\r\n                            <a href=\"team.html\" class=\"dropdown-item\">지인</a>\r\n                            <a href=\"testimonial.html\" class=\"dropdown-item\">친구</a>\r\n                        </div>\r\n                    </div>\r\n                    <a href=\"contact.html\" class=\"nav-item nav-link\">추가 설명</a>\r\n                </div>\r\n                <a href=\"\" @click=\"moveFocus\" class=\"btn btn-primary py-2 px-4\">Search</a>\r\n            </div>\r\n        </nav>\r\n    </div>\r\n\r\n    <div class=\"container-xxl py-5 bg-dark hero-header mb-5\">\r\n        <div class=\"container my-5 py-5\">\r\n            <div class=\"row align-items-center g-5\">\r\n                <div class=\"col-lg-6 text-center text-lg-start\">\r\n                    <h1 class=\"display-3 text-white animated slideInLeft\">오늘의 선물 추천</h1>\r\n                    <p class=\"text-white animated slideInLeft mb-4 pb-2\">다양한 선물들 사이에서 지인이나 가족, 친구들에게 주고 싶은 선물을 찾아보세요~!</p>\r\n                    <p><input id=\"searchInputText\" ref=\"searchInput\" type=\"text\" style=\"width: 50%; height: 50px; margin-right: 10px;\" placeholder=\"\"/><a href=\"\" class=\"btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft\">Search</a></p>\r\n                </div>\r\n                <div class=\"col-lg-6 text-center text-lg-end overflow-hidden\">\r\n                    <img class=\"img-fluid\" src=\"/resources/img/gift-1.png\" alt=\"\">\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n<!-- Navbar & Hero End -->\r\n    </div>\r\n\r\n</div>\r\n\r\n\r\n\r\n\r\n\r\n    <!-- JavaScript Libraries -->\r\n    <script src=\"https://code.jquery.com/jquery-3.4.1.min.js\"></script>\r\n    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js\"></script>\r\n    <script src=\"/resources/lib/wow/wow.min.js\"></script>\r\n    <script src=\"/resources/lib/easing/easing.min.js\"></script>\r\n    <script src=\"/resources/lib/waypoints/waypoints.min.js\"></script>\r\n    <script src=\"/resources/lib/counterup/counterup.min.js\"></script>\r\n    <script src=\"/resources/lib/owlcarousel/owl.carousel.min.js\"></script>\r\n    <script src=\"/resources/lib/tempusdominus/js/moment.min.js\"></script>\r\n    <script src=\"/resources/lib/tempusdominus/js/moment-timezone.min.js\"></script>\r\n    <script src=\"/resources/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js\"></script>\r\n\r\n    <!-- Template Javascript -->\r\n    <script src=\"/resources/js/main.js\"></script>\r\n    <script src=\"/resources/js/views/indexComponent.js\"></script>\r\n</body>\r\n</html>\r\n
+===================================================================
+diff --git a/target/mvc_test/WEB-INF/views/index.jsp b/target/mvc_test/WEB-INF/views/index.jsp
+--- a/target/mvc_test/WEB-INF/views/index.jsp	(revision 21bfc33da90975ea1f1e60a05e6964f92cdefade)
++++ b/target/mvc_test/WEB-INF/views/index.jsp	(date 1746441137131)
+@@ -33,16 +33,17 @@
+     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+ </head>
+ <body>
+-<div id="wrap">
++
+     <div class="container-xxl bg-white p-0">
+         <!-- Spinner Start -->
+-        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center" Style="visibility: hidden">
++        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+             <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                 <span class="sr-only">Loading...</span>
+             </div>
+         </div>
+         <!-- Spinner End -->
+ 
++<div id="wrap">
+     <!-- Navbar & Hero Start -->
+     <div class="container-xxl position-relative p-0">
+         <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
+@@ -69,7 +70,7 @@
+                     </div>
+                     <a href="contact.html" class="nav-item nav-link">추가 설명</a>
+                 </div>
+-                <a href="" @click="moveFocus" class="btn btn-primary py-2 px-4">Search</a>
++                <a href="" @click="placehoderInput" class="btn btn-primary py-2 px-4">Search {{message}}</a>
+             </div>
+         </nav>
+     </div>
+diff --git a/src/main/webapp/WEB-INF/js/main.js b/src/main/webapp/resources/js/main.js
+rename from src/main/webapp/WEB-INF/js/main.js
+rename to src/main/webapp/resources/js/main.js
