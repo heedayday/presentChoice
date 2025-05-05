@@ -1,0 +1,539 @@
+Index: .idea/encodings.xml
+===================================================================
+diff --git a/.idea/encodings.xml b/.idea/encodings.xml
+deleted file mode 100644
+--- a/.idea/encodings.xml	(revision 21bfc33da90975ea1f1e60a05e6964f92cdefade)
++++ /dev/null	(revision 21bfc33da90975ea1f1e60a05e6964f92cdefade)
+@@ -1,7 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="Encoding">
+-    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+-    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/vcs.xml
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+deleted file mode 100644
+--- a/.idea/vcs.xml	(revision 21bfc33da90975ea1f1e60a05e6964f92cdefade)
++++ /dev/null	(revision 21bfc33da90975ea1f1e60a05e6964f92cdefade)
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="VcsDirectoryMappings">
+-    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/workspace.xml
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+deleted file mode 100644
+--- a/.idea/workspace.xml	(revision 21bfc33da90975ea1f1e60a05e6964f92cdefade)
++++ /dev/null	(revision 21bfc33da90975ea1f1e60a05e6964f92cdefade)
+@@ -1,333 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ArtifactsWorkspaceSettings">
+-    <artifacts-to-build>
+-      <artifact name="presentChoice:war exploded" />
+-    </artifacts-to-build>
+-  </component>
+-  <component name="AutoImportSettings">
+-    <option name="autoReloadType" value="SELECTIVE" />
+-  </component>
+-  <component name="ChangeListManager">
+-    <list default="true" id="b63b7a6a-6294-4def-a21f-2a2ced71fa9f" name="Changes" comment="img 디렉토리 위치 변경">
+-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/js/views/indexComponent.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/indexComponent.jsp" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/gift-1.png" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap.min.css" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/mvc_test/WEB-INF/views/index.jsp" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/mvc_test/resources/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/mvc_test/resources/css/bootstrap.min.css" afterDir="false" />
+-    </list>
+-    <option name="SHOW_DIALOG" value="false" />
+-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+-    <option name="LAST_RESOLUTION" value="IGNORE" />
+-  </component>
+-  <component name="CompilerWorkspaceConfiguration">
+-    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+-  </component>
+-  <component name="FileTemplateManagerImpl">
+-    <option name="RECENT_TEMPLATES">
+-      <list>
+-        <option value="Class" />
+-        <option value="Jsp File" />
+-      </list>
+-    </option>
+-  </component>
+-  <component name="Git.Settings">
+-    <favorite-branches>
+-      <branch-storage>
+-        <map>
+-          <entry type="LOCAL">
+-            <value>
+-              <list>
+-                <branch-info repo="$PROJECT_DIR$" source="develop" />
+-              </list>
+-            </value>
+-          </entry>
+-          <entry type="REMOTE">
+-            <value>
+-              <list>
+-                <branch-info repo="$PROJECT_DIR$" source="origin/develop" />
+-              </list>
+-            </value>
+-          </entry>
+-        </map>
+-      </branch-storage>
+-    </favorite-branches>
+-    <option name="RECENT_BRANCH_BY_REPOSITORY">
+-      <map>
+-        <entry key="$PROJECT_DIR$" value="기본-셋팅-파일확인" />
+-      </map>
+-    </option>
+-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+-  </component>
+-  <component name="GitHubPullRequestSearchHistory">{
+-  &quot;lastFilter&quot;: {
+-    &quot;state&quot;: &quot;OPEN&quot;,
+-    &quot;assignee&quot;: &quot;heedayday&quot;
+-  }
+-}</component>
+-  <component name="GithubPullRequestsUISettings">{
+-  &quot;selectedUrlAndAccountId&quot;: {
+-    &quot;url&quot;: &quot;https://github.com/heedayday/presentChoice.git&quot;,
+-    &quot;accountId&quot;: &quot;e8e66b9e-7f58-4b24-8c62-d028c714e5fa&quot;
+-  }
+-}</component>
+-  <component name="KubernetesApiPersistence">{}</component>
+-  <component name="KubernetesApiProvider">{
+-  &quot;isMigrated&quot;: true
+-}</component>
+-  <component name="LogFilters">
+-    <option name="FILTER_ERRORS" value="false" />
+-    <option name="FILTER_WARNINGS" value="false" />
+-    <option name="FILTER_INFO" value="true" />
+-    <option name="FILTER_DEBUG" value="true" />
+-    <option name="CUSTOM_FILTER" />
+-  </component>
+-  <component name="MavenImportPreferences">
+-    <option name="generalSettings">
+-      <MavenGeneralSettings>
+-        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+-      </MavenGeneralSettings>
+-    </option>
+-  </component>
+-  <component name="ProjectColorInfo">{
+-  &quot;associatedIndex&quot;: 6
+-}</component>
+-  <component name="ProjectId" id="2waJomvWRZHqSYrPVxX6WuCTnY6" />
+-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+-    <ConfirmationsSetting value="2" id="Add" />
+-  </component>
+-  <component name="ProjectViewState">
+-    <option name="hideEmptyMiddlePackages" value="true" />
+-    <option name="showLibraryContents" value="true" />
+-  </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "Application.PresentChoiceApplication.executor": "Run",
+-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "RunOnceActivity.git.unshallow": "true",
+-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "Spring Boot.PresentChoiceApplication.executor": "Run",
+-    "Tomcat Server.Tomcat 9.0.104.executor": "Run",
+-    "git-widget-placeholder": "CSS-study-20250504",
+-    "kotlin-language-version-configured": "true",
+-    "last_opened_file_path": "D:/workspace/presentChoice",
+-    "node.js.detected.package.eslint": "true",
+-    "node.js.detected.package.tslint": "true",
+-    "node.js.selected.package.eslint": "(autodetect)",
+-    "node.js.selected.package.tslint": "(autodetect)",
+-    "nodejs_package_manager_path": "npm",
+-    "project.structure.last.edited": "Project",
+-    "project.structure.proportion": "0.0",
+-    "project.structure.side.proportion": "0.0",
+-    "settings.editor.selected.configurable": "preferences.general",
+-    "vue.rearranger.settings.migration": "true"
+-  }
+-}]]></component>
+-  <component name="RecentsManager">
+-    <key name="MoveFile.RECENT_KEYS">
+-      <recent name="D:\workspace\presentChoice\src\main\webapp\resources\img" />
+-      <recent name="D:\workspace\presentChoice\src\main\webapp\resources" />
+-      <recent name="D:\workspace\presentChoice\src\main\webapp\WEB-INF" />
+-      <recent name="D:\workspace\presentChoice\src\main\webapp" />
+-    </key>
+-  </component>
+-  <component name="RunManager">
+-    <configuration name="Tomcat 9.0.104" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.104" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+-      <option name="UPDATING_POLICY" value="restart-server" />
+-      <deployment>
+-        <artifact name="presentChoice:war exploded">
+-          <settings>
+-            <option name="CONTEXT_PATH" value="/" />
+-          </settings>
+-        </artifact>
+-      </deployment>
+-      <server-settings>
+-        <option name="BASE_DIRECTORY_NAME" value="9fb1b400-2e3a-4223-a1aa-23bc9661e274" />
+-      </server-settings>
+-      <predefined_log_file enabled="true" id="Tomcat" />
+-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+-      <predefined_log_file id="Tomcat Manager" />
+-      <predefined_log_file id="Tomcat Host Manager" />
+-      <predefined_log_file id="Tomcat Localhost Access" />
+-      <RunnerSettings RunnerId="Debug">
+-        <option name="DEBUG_PORT" value="55302" />
+-      </RunnerSettings>
+-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+-        <option name="USE_ENV_VARIABLES" value="true" />
+-        <STARTUP>
+-          <option name="USE_DEFAULT" value="true" />
+-          <option name="SCRIPT" value="" />
+-          <option name="VM_PARAMETERS" value="" />
+-          <option name="PROGRAM_PARAMETERS" value="" />
+-        </STARTUP>
+-        <SHUTDOWN>
+-          <option name="USE_DEFAULT" value="true" />
+-          <option name="SCRIPT" value="" />
+-          <option name="VM_PARAMETERS" value="" />
+-          <option name="PROGRAM_PARAMETERS" value="" />
+-        </SHUTDOWN>
+-      </ConfigurationWrapper>
+-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+-        <option name="USE_ENV_VARIABLES" value="true" />
+-        <STARTUP>
+-          <option name="USE_DEFAULT" value="true" />
+-          <option name="SCRIPT" value="" />
+-          <option name="VM_PARAMETERS" value="" />
+-          <option name="PROGRAM_PARAMETERS" value="" />
+-        </STARTUP>
+-        <SHUTDOWN>
+-          <option name="USE_DEFAULT" value="true" />
+-          <option name="SCRIPT" value="" />
+-          <option name="VM_PARAMETERS" value="" />
+-          <option name="PROGRAM_PARAMETERS" value="" />
+-        </SHUTDOWN>
+-      </ConfigurationWrapper>
+-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+-        <option name="USE_ENV_VARIABLES" value="true" />
+-        <STARTUP>
+-          <option name="USE_DEFAULT" value="true" />
+-          <option name="SCRIPT" value="" />
+-          <option name="VM_PARAMETERS" value="" />
+-          <option name="PROGRAM_PARAMETERS" value="" />
+-        </STARTUP>
+-        <SHUTDOWN>
+-          <option name="USE_DEFAULT" value="true" />
+-          <option name="SCRIPT" value="" />
+-          <option name="VM_PARAMETERS" value="" />
+-          <option name="PROGRAM_PARAMETERS" value="" />
+-        </SHUTDOWN>
+-      </ConfigurationWrapper>
+-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+-        <option name="USE_ENV_VARIABLES" value="true" />
+-        <STARTUP>
+-          <option name="USE_DEFAULT" value="true" />
+-          <option name="SCRIPT" value="" />
+-          <option name="VM_PARAMETERS" value="" />
+-          <option name="PROGRAM_PARAMETERS" value="" />
+-        </STARTUP>
+-        <SHUTDOWN>
+-          <option name="USE_DEFAULT" value="true" />
+-          <option name="SCRIPT" value="" />
+-          <option name="VM_PARAMETERS" value="" />
+-          <option name="PROGRAM_PARAMETERS" value="" />
+-        </SHUTDOWN>
+-      </ConfigurationWrapper>
+-      <method v="2">
+-        <option name="Make" enabled="true" />
+-        <option name="BuildArtifacts" enabled="true">
+-          <artifact name="presentChoice:war exploded" />
+-        </option>
+-      </method>
+-    </configuration>
+-  </component>
+-  <component name="SharedIndexes">
+-    <attachedChunks>
+-      <set>
+-        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+-      </set>
+-    </attachedChunks>
+-  </component>
+-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+-  <component name="TaskManager">
+-    <task active="true" id="Default" summary="Default task">
+-      <changelist id="b63b7a6a-6294-4def-a21f-2a2ced71fa9f" name="Changes" comment="" />
+-      <created>1746273930197</created>
+-      <option name="number" value="Default" />
+-      <option name="presentableId" value="Default" />
+-      <updated>1746273930197</updated>
+-      <workItem from="1746273931275" duration="127000" />
+-      <workItem from="1746274065673" duration="1188000" />
+-      <workItem from="1746280926405" duration="208000" />
+-      <workItem from="1746281194602" duration="405000" />
+-      <workItem from="1746281613850" duration="1910000" />
+-      <workItem from="1746343264045" duration="59000" />
+-      <workItem from="1746343330338" duration="9382000" />
+-    </task>
+-    <task id="LOCAL-00001" summary="JSP 파일 실행을 위한 기본적인 셋팅 파일">
+-      <option name="closed" value="true" />
+-      <created>1746280859791</created>
+-      <option name="number" value="00001" />
+-      <option name="presentableId" value="LOCAL-00001" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1746280859791</updated>
+-    </task>
+-    <task id="LOCAL-00002" summary="JSP 파일 실행을 위한 기본적인 셋팅 파일">
+-      <option name="closed" value="true" />
+-      <created>1746281277965</created>
+-      <option name="number" value="00002" />
+-      <option name="presentableId" value="LOCAL-00002" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1746281277965</updated>
+-    </task>
+-    <task id="LOCAL-00003" summary="추가 파일 커밋">
+-      <option name="closed" value="true" />
+-      <created>1746281417284</created>
+-      <option name="number" value="00003" />
+-      <option name="presentableId" value="LOCAL-00003" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1746281417284</updated>
+-    </task>
+-    <task id="LOCAL-00004" summary="부트스트랩 사용을 위한 파일 추가">
+-      <option name="closed" value="true" />
+-      <created>1746326551064</created>
+-      <option name="number" value="00004" />
+-      <option name="presentableId" value="LOCAL-00004" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1746326551064</updated>
+-    </task>
+-    <task id="LOCAL-00005" summary="img 디렉토리 위치 변경">
+-      <option name="closed" value="true" />
+-      <created>1746343614863</created>
+-      <option name="number" value="00005" />
+-      <option name="presentableId" value="LOCAL-00005" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1746343614863</updated>
+-    </task>
+-    <option name="localTasksCounter" value="6" />
+-    <servers />
+-  </component>
+-  <component name="TypeScriptGeneratedFilesManager">
+-    <option name="version" value="3" />
+-  </component>
+-  <component name="Vcs.Log.Tabs.Properties">
+-    <option name="TAB_STATES">
+-      <map>
+-        <entry key="MAIN">
+-          <value>
+-            <State>
+-              <option name="FILTERS">
+-                <map>
+-                  <entry key="branch">
+-                    <value>
+-                      <list>
+-                        <option value="CSS-study-20250504" />
+-                      </list>
+-                    </value>
+-                  </entry>
+-                </map>
+-              </option>
+-            </State>
+-          </value>
+-        </entry>
+-      </map>
+-    </option>
+-  </component>
+-  <component name="VcsManagerConfiguration">
+-    <MESSAGE value="JSP 파일 실행을 위한 기본적인 셋팅 파일" />
+-    <MESSAGE value="추가 파일 커밋" />
+-    <MESSAGE value=".idea 파일 올라가지 않도록 gitignore 수정" />
+-    <MESSAGE value="부트스트랩 사용을 위한 파일 추가" />
+-    <MESSAGE value="img 디렉토리 위치 변경" />
+-    <option name="LAST_COMMIT_MESSAGE" value="img 디렉토리 위치 변경" />
+-  </component>
+-  <component name="XSLT-Support.FileAssociations.UIState">
+-    <expand />
+-    <select />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/jarRepositories.xml
+===================================================================
+diff --git a/.idea/jarRepositories.xml b/.idea/jarRepositories.xml
+deleted file mode 100644
+--- a/.idea/jarRepositories.xml	(revision 21bfc33da90975ea1f1e60a05e6964f92cdefade)
++++ /dev/null	(revision 21bfc33da90975ea1f1e60a05e6964f92cdefade)
+@@ -1,20 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="RemoteRepositoriesConfiguration">
+-    <remote-repository>
+-      <option name="id" value="central" />
+-      <option name="name" value="Central Repository" />
+-      <option name="url" value="https://repo.maven.apache.org/maven2" />
+-    </remote-repository>
+-    <remote-repository>
+-      <option name="id" value="central" />
+-      <option name="name" value="Maven Central repository" />
+-      <option name="url" value="https://repo1.maven.org/maven2" />
+-    </remote-repository>
+-    <remote-repository>
+-      <option name="id" value="jboss.community" />
+-      <option name="name" value="JBoss Community repository" />
+-      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+-    </remote-repository>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: target/mvc_test/WEB-INF/js/main.js
+===================================================================
+diff --git a/target/mvc_test/WEB-INF/js/main.js b/target/mvc_test/WEB-INF/js/main.js
+deleted file mode 100644
+--- a/target/mvc_test/WEB-INF/js/main.js	(revision 21bfc33da90975ea1f1e60a05e6964f92cdefade)
++++ /dev/null	(revision 21bfc33da90975ea1f1e60a05e6964f92cdefade)
+@@ -1,119 +0,0 @@
+-(function ($) {
+-    "use strict";
+-
+-    // Spinner
+-    var spinner = function () {
+-        setTimeout(function () {
+-            if ($('#spinner').length > 0) {
+-                $('#spinner').removeClass('show');
+-            }
+-        }, 1);
+-    };
+-    spinner();
+-    
+-    
+-    // Initiate the wowjs
+-    new WOW().init();
+-
+-
+-    // Sticky Navbar
+-    $(window).scroll(function () {
+-        if ($(this).scrollTop() > 45) {
+-            $('.navbar').addClass('sticky-top shadow-sm');
+-        } else {
+-            $('.navbar').removeClass('sticky-top shadow-sm');
+-        }
+-    });
+-    
+-    
+-    // Dropdown on mouse hover
+-    const $dropdown = $(".dropdown");
+-    const $dropdownToggle = $(".dropdown-toggle");
+-    const $dropdownMenu = $(".dropdown-menu");
+-    const showClass = "show";
+-    
+-    $(window).on("load resize", function() {
+-        if (this.matchMedia("(min-width: 992px)").matches) {
+-            $dropdown.hover(
+-            function() {
+-                const $this = $(this);
+-                $this.addClass(showClass);
+-                $this.find($dropdownToggle).attr("aria-expanded", "true");
+-                $this.find($dropdownMenu).addClass(showClass);
+-            },
+-            function() {
+-                const $this = $(this);
+-                $this.removeClass(showClass);
+-                $this.find($dropdownToggle).attr("aria-expanded", "false");
+-                $this.find($dropdownMenu).removeClass(showClass);
+-            }
+-            );
+-        } else {
+-            $dropdown.off("mouseenter mouseleave");
+-        }
+-    });
+-    
+-    
+-    // Back to top button
+-    $(window).scroll(function () {
+-        if ($(this).scrollTop() > 300) {
+-            $('.back-to-top').fadeIn('slow');
+-        } else {
+-            $('.back-to-top').fadeOut('slow');
+-        }
+-    });
+-    $('.back-to-top').click(function () {
+-        $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
+-        return false;
+-    });
+-
+-
+-    // Facts counter
+-    $('[data-toggle="counter-up"]').counterUp({
+-        delay: 10,
+-        time: 2000
+-    });
+-
+-
+-    // Modal Video
+-    $(document).ready(function () {
+-        var $videoSrc;
+-        $('.btn-play').click(function () {
+-            $videoSrc = $(this).data("src");
+-        });
+-        console.log($videoSrc);
+-
+-        $('#videoModal').on('shown.bs.modal', function (e) {
+-            $("#video").attr('src', $videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0");
+-        })
+-
+-        $('#videoModal').on('hide.bs.modal', function (e) {
+-            $("#video").attr('src', $videoSrc);
+-        })
+-    });
+-
+-
+-    // Testimonials carousel
+-    $(".testimonial-carousel").owlCarousel({
+-        autoplay: true,
+-        smartSpeed: 1000,
+-        center: true,
+-        margin: 24,
+-        dots: true,
+-        loop: true,
+-        nav : false,
+-        responsive: {
+-            0:{
+-                items:1
+-            },
+-            768:{
+-                items:2
+-            },
+-            992:{
+-                items:3
+-            }
+-        }
+-    });
+-    
+-})(jQuery);
+-
+Index: .idea/.gitignore
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+deleted file mode 100644
+--- a/.idea/.gitignore	(revision 21bfc33da90975ea1f1e60a05e6964f92cdefade)
++++ /dev/null	(revision 21bfc33da90975ea1f1e60a05e6964f92cdefade)
+@@ -1,8 +0,0 @@
+-# Default ignored files
+-/shelf/
+-/workspace.xml
+-# Editor-based HTTP Client requests
+-/httpRequests/
+-# Datasource local storage ignored files
+-/dataSources/
+-/dataSources.local.xml
