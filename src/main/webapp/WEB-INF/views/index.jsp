@@ -1,10 +1,3 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: User
-  Date: 2025-05-03
-  Time: 오후 9:42
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -35,20 +28,70 @@
 
     <!-- Template Stylesheet -->
     <link href="/resources/css/style.css" rel="stylesheet">
+
+    <%--vue2 사용하기--%>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
 </head>
 <body>
+<div id="wrap">
     <div class="container-xxl bg-white p-0">
-<%--        <!-- Spinner Start -->--%>
-<%--        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">--%>
-<%--            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">--%>
-<%--                <span class="sr-only">Loading...</span>--%>
-<%--            </div>--%>
-<%--        </div>--%>
-<%--        <!-- Spinner End -->--%>
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center" Style="visibility: hidden">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
 
-
-
+    <!-- Navbar & Hero Start -->
+    <div class="container-xxl position-relative p-0">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
+            <a href="" class="navbar-brand p-0">
+                <%--아이콘 부분 수정하기--%>
+                <h1 class="text-primary m-0"><i class="fa fa-gift me-3"></i>PresentChoice</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0 pe-4">
+                    <a href="index.html" class="nav-item nav-link active">홈</a>
+                    <a href="about.html" class="nav-item nav-link">소개</a>
+                    <a href="service.html" class="nav-item nav-link">고급 선물</a>
+                    <a href="menu.html" class="nav-item nav-link">가성비 선물</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">선물 추천 대상</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="booking.html" class="dropdown-item">가족</a>
+                            <a href="team.html" class="dropdown-item">지인</a>
+                            <a href="testimonial.html" class="dropdown-item">친구</a>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link">추가 설명</a>
+                </div>
+                <a href="" @click="moveFocus" class="btn btn-primary py-2 px-4">Search</a>
+            </div>
+        </nav>
     </div>
+
+    <div class="container-xxl py-5 bg-dark hero-header mb-5">
+        <div class="container my-5 py-5">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6 text-center text-lg-start">
+                    <h1 class="display-3 text-white animated slideInLeft">오늘의 선물 추천</h1>
+                    <p class="text-white animated slideInLeft mb-4 pb-2">다양한 선물들 사이에서 지인이나 가족, 친구들에게 주고 싶은 선물을 찾아보세요~!</p>
+                    <p><input id="searchInputText" ref="searchInput" type="text" style="width: 50%; height: 50px; margin-right: 10px;" placeholder=""/><a href="" class="btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft">Search</a></p>
+                </div>
+                <div class="col-lg-6 text-center text-lg-end overflow-hidden">
+                    <img class="img-fluid" src="/resources/img/gift-1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Navbar & Hero End -->
+    </div>
+
+</div>
 
 
 
@@ -68,5 +111,6 @@
 
     <!-- Template Javascript -->
     <script src="/resources/js/main.js"></script>
+    <script src="/resources/js/views/indexComponent.js"></script>
 </body>
 </html>

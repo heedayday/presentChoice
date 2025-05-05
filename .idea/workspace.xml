@@ -9,70 +9,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b63b7a6a-6294-4def-a21f-2a2ced71fa9f" name="Changes" comment="부트스트랩 사용을 위한 파일 추가">
+    <list default="true" id="b63b7a6a-6294-4def-a21f-2a2ced71fa9f" name="Changes" comment="img 디렉토리 위치 변경">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/js/views/indexComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/indexComponent.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/gift-1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ko/java/presentChoice/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ko/java/presentChoice/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/img/about-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/about-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/img/about-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/about-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/img/about-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/about-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/img/about-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/about-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/img/bg-hero.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/bg-hero.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/img/hero.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/hero.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/img/menu-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/menu-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/img/menu-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/menu-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/img/menu-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/menu-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/img/menu-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/menu-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/img/menu-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/menu-5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/img/menu-6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/menu-6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/img/menu-7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/menu-7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/img/menu-8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/menu-8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/img/team-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/team-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/img/team-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/team-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/img/team-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/team-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/img/team-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/team-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/img/testimonial-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/testimonial-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/img/testimonial-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/testimonial-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/img/testimonial-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/testimonial-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/img/testimonial-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/testimonial-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/img/video.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/video.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ko/java/presentChoice/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ko/java/presentChoice/controller/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/classes/ko/java/presentChoice/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/mvc_test/WEB-INF/classes/ko/java/presentChoice/controller/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/img/about-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/img/about-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/img/about-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/img/about-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/img/bg-hero.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/img/hero.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/img/menu-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/img/menu-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/img/menu-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/img/menu-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/img/menu-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/img/menu-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/img/menu-7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/img/menu-8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/img/team-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/img/team-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/img/team-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/img/team-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/img/testimonial-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/img/testimonial-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/img/testimonial-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/img/testimonial-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/img/video.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/mvc_test/WEB-INF/views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/resources/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/mvc_test/resources/css/bootstrap.min.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -165,12 +124,13 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "preferences.general",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\presentChoice\src\main\webapp\resources\img" />
       <recent name="D:\workspace\presentChoice\src\main\webapp\resources" />
       <recent name="D:\workspace\presentChoice\src\main\webapp\WEB-INF" />
       <recent name="D:\workspace\presentChoice\src\main\webapp" />
@@ -287,6 +247,7 @@
       <workItem from="1746281194602" duration="405000" />
       <workItem from="1746281613850" duration="1910000" />
       <workItem from="1746343264045" duration="59000" />
+      <workItem from="1746343330338" duration="9382000" />
     </task>
     <task id="LOCAL-00001" summary="JSP 파일 실행을 위한 기본적인 셋팅 파일">
       <option name="closed" value="true" />
@@ -320,7 +281,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746326551064</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="img 디렉토리 위치 변경">
+      <option name="closed" value="true" />
+      <created>1746343614863</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1746343614863</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,6 +323,11 @@
     <MESSAGE value="추가 파일 커밋" />
     <MESSAGE value=".idea 파일 올라가지 않도록 gitignore 수정" />
     <MESSAGE value="부트스트랩 사용을 위한 파일 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="부트스트랩 사용을 위한 파일 추가" />
+    <MESSAGE value="img 디렉토리 위치 변경" />
+    <option name="LAST_COMMIT_MESSAGE" value="img 디렉토리 위치 변경" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
