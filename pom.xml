@@ -118,7 +118,7 @@
     <dependency>
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
-      <version>1.18.12</version>
+      <version>1.18.30</version>
       <scope>provided</scope>
     </dependency>
 
@@ -163,6 +163,13 @@
         <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
           <version>3.8.0</version>
+          <configuration>
+            <compilerArgs>
+              <arg>--add-opens</arg>
+              <arg>jdk.compiler/com.sun.tools.javac.processing=ALL-UNNAMED</arg>
+            </compilerArgs>
+            <fork>true</fork>
+          </configuration>
         </plugin>
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>

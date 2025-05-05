@@ -9,56 +9,252 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b63b7a6a-6294-4def-a21f-2a2ced71fa9f" name="Changes" comment="img 디렉토리 위치 변경">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/js/views/indexComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/indexComponent.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/gift-1.png" afterDir="false" />
+    <list default="true" id="b63b7a6a-6294-4def-a21f-2a2ced71fa9f" name="Changes" comment=".idea">
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2025-05-05__8_53__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2025-05-05__8_53__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2025-05-05_오후_8_53_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2025-05-05_오후_8_53_[Changes]1/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/js/views/indexComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/views/indexComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/_accordion.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/_accordion.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/_alert.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/_alert.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/_badge.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/_badge.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/_breadcrumb.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/_breadcrumb.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/_button-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/_button-group.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/_card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/_card.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/_carousel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/_carousel.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/_close.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/_close.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/_containers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/_containers.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/_dropdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/_dropdown.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/_forms.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/_functions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/_functions.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/_grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/_helpers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/_helpers.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/_images.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/_images.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/_list-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/_list-group.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/_modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/_modal.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/_nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/_nav.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/_navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/_offcanvas.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/_offcanvas.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/_pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/_pagination.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/_popover.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/_popover.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/_progress.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/_progress.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/_reboot.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/_reboot.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/_root.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/_root.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/_spinners.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/_spinners.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/_tables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/_tables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/_toasts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/_toasts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/_tooltip.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/_tooltip.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/_transitions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/_transitions.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/_type.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/_type.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/_utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/_utilities.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/bootstrap-grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/bootstrap-grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/bootstrap-reboot.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/bootstrap-reboot.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/bootstrap-utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/bootstrap-utilities.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/bootstrap.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/bootstrap.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/forms/_floating-labels.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/forms/_floating-labels.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/forms/_form-check.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/forms/_form-check.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/forms/_form-control.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/forms/_form-control.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/forms/_form-range.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/forms/_form-range.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/forms/_form-select.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/forms/_form-select.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/forms/_form-text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/forms/_form-text.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/forms/_input-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/forms/_input-group.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/forms/_labels.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/forms/_labels.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/forms/_validation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/forms/_validation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/helpers/_clearfix.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/helpers/_clearfix.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/helpers/_colored-links.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/helpers/_colored-links.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/helpers/_position.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/helpers/_position.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/helpers/_ratio.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/helpers/_ratio.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/helpers/_stretched-link.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/helpers/_stretched-link.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/helpers/_text-truncation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/helpers/_text-truncation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/helpers/_visually-hidden.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/helpers/_visually-hidden.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/mixins/_alert.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/mixins/_alert.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/mixins/_border-radius.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/mixins/_border-radius.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/mixins/_box-shadow.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/mixins/_box-shadow.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/mixins/_breakpoints.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/mixins/_breakpoints.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/mixins/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/mixins/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/mixins/_caret.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/mixins/_caret.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/mixins/_clearfix.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/mixins/_clearfix.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/mixins/_color-scheme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/mixins/_color-scheme.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/mixins/_container.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/mixins/_container.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/mixins/_deprecate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/mixins/_deprecate.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/mixins/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/mixins/_forms.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/mixins/_gradients.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/mixins/_gradients.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/mixins/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/mixins/_grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/mixins/_image.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/mixins/_image.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/mixins/_list-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/mixins/_list-group.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/mixins/_lists.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/mixins/_lists.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/mixins/_pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/mixins/_pagination.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/mixins/_reset-text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/mixins/_reset-text.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/mixins/_resize.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/mixins/_resize.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/mixins/_table-variants.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/mixins/_table-variants.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/mixins/_text-truncate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/mixins/_text-truncate.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/mixins/_transition.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/mixins/_transition.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/mixins/_utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/mixins/_utilities.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/mixins/_visually-hidden.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/mixins/_visually-hidden.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/utilities/_api.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/utilities/_api.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/scss/bootstrap/scss/vendor/_rfs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/scss/bootstrap/scss/vendor/_rfs.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/mvc_test/WEB-INF/views/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mvc_test/resources/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/mvc_test/resources/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ko/java/presentChoice/controller/MainController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/classes/ko/java/presentChoice/controller/MainController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/lib/commons-fileupload-1.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/lib/commons-io-2.11.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/lib/gson-2.8.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/lib/jackson-core-2.15.0-rc1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/lib/javax.inject-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/lib/jcl-over-slf4j-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/lib/json-simple-1.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/lib/mybatis-3.5.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/lib/mybatis-spring-1.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/lib/mysql-connector-java-8.0.28.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/lib/protobuf-java-3.11.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/lib/spring-aop-5.3.20.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/lib/spring-beans-5.3.20.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/lib/spring-context-5.3.20.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/lib/spring-core-5.3.20.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/lib/spring-expression-5.3.20.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/lib/spring-jcl-5.3.20.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/lib/spring-jdbc-5.3.20.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/lib/spring-tx-5.3.20.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/lib/spring-web-5.3.20.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/lib/spring-webmvc-5.3.20.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/lib/tomcat-dbcp-9.0.31.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/lib/tomcat-juli-9.0.31.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/root-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/_accordion.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/_alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/_badge.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/_breadcrumb.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/_button-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/_card.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/_carousel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/_close.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/_containers.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/_dropdown.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/_functions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/_helpers.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/_images.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/_modal.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/_nav.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/_navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/_offcanvas.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/_popover.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/_progress.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/_reboot.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/_root.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/_spinners.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/_tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/_toasts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/_tooltip.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/_transitions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/_type.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/_utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/bootstrap-grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/bootstrap-reboot.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/bootstrap-utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/bootstrap.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/forms/_floating-labels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/forms/_form-check.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/forms/_form-control.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/forms/_form-range.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/forms/_form-select.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/forms/_form-text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/forms/_input-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/forms/_labels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/forms/_validation.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/helpers/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/helpers/_colored-links.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/helpers/_position.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/helpers/_ratio.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/helpers/_stretched-link.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/helpers/_text-truncation.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/helpers/_visually-hidden.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/mixins/_alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/mixins/_border-radius.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/mixins/_box-shadow.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/mixins/_breakpoints.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/mixins/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/mixins/_caret.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/mixins/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/mixins/_color-scheme.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/mixins/_container.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/mixins/_deprecate.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/mixins/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/mixins/_gradients.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/mixins/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/mixins/_image.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/mixins/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/mixins/_lists.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/mixins/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/mixins/_reset-text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/mixins/_resize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/mixins/_table-variants.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/mixins/_text-truncate.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/mixins/_transition.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/mixins/_utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/mixins/_visually-hidden.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/utilities/_api.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/scss/bootstrap/scss/vendor/_rfs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/servlet-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/views/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/resources/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/resources/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/resources/lib/animate/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/resources/lib/animate/animate.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/resources/lib/counterup/counterup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/resources/lib/easing/easing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/resources/lib/easing/easing.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/resources/lib/owlcarousel/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/resources/lib/owlcarousel/assets/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/resources/lib/owlcarousel/assets/owl.carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/resources/lib/owlcarousel/assets/owl.carousel.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/resources/lib/owlcarousel/assets/owl.theme.default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/resources/lib/owlcarousel/assets/owl.theme.default.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/resources/lib/owlcarousel/assets/owl.theme.green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/resources/lib/owlcarousel/assets/owl.theme.green.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/resources/lib/owlcarousel/assets/owl.video.play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/resources/lib/owlcarousel/owl.carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/resources/lib/owlcarousel/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/resources/lib/tempusdominus/css/tempusdominus-bootstrap-4.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/resources/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/resources/lib/tempusdominus/js/moment-timezone.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/resources/lib/tempusdominus/js/moment.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/resources/lib/tempusdominus/js/tempusdominus-bootstrap-4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/resources/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/resources/lib/waypoints/links.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/resources/lib/waypoints/waypoints.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/resources/lib/wow/wow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mvc_test/resources/lib/wow/wow.min.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CompilerWorkspaceConfiguration">
-    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-        <option value="Jsp File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <favorite-branches>
-      <branch-storage>
-        <map>
-          <entry type="LOCAL">
-            <value>
-              <list>
-                <branch-info repo="$PROJECT_DIR$" source="develop" />
-              </list>
-            </value>
-          </entry>
-          <entry type="REMOTE">
-            <value>
-              <list>
-                <branch-info repo="$PROJECT_DIR$" source="origin/develop" />
-              </list>
-            </value>
-          </entry>
-        </map>
-      </branch-storage>
-    </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="기본-셋팅-파일확인" />
+        <entry key="$PROJECT_DIR$" value="CSS-study-20250504" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -86,17 +282,10 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 6
+  &quot;associatedIndex&quot;: 1
 }</component>
-  <component name="ProjectId" id="2waJomvWRZHqSYrPVxX6WuCTnY6" />
+  <component name="ProjectId" id="2wg6yLsi61LExOMoqNgxS9SfM7k" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -104,51 +293,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.PresentChoiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.PresentChoiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Tomcat Server.Tomcat 9.0.104.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;CSS-study-20250504&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/workspace/presentChoice&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.presentChoice [clean].executor": "Run",
+    "Maven.presentChoice [install].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Tomcat Server.Tomcat 9.0.104.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/workspace/presentChoice",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workspace\presentChoice\src\main\webapp\resources\img" />
       <recent name="D:\workspace\presentChoice\src\main\webapp\resources" />
-      <recent name="D:\workspace\presentChoice\src\main\webapp\WEB-INF" />
-      <recent name="D:\workspace\presentChoice\src\main\webapp" />
+      <recent name="D:\workspace\presentChoice\src\main\resources" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="presentChoice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="presentChoice" />
-      <option name="filePath" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Tomcat 9.0.104" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.104" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+    <configuration name="Tomcat 9.0.104" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" focusToolWindowBeforeRun="true" APPLICATION_SERVER_NAME="Tomcat 9.0.104" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="openjdk-24" nameIsGenerated="true">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="presentChoice:war exploded">
@@ -158,15 +334,15 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="9fb1b400-2e3a-4223-a1aa-23bc9661e274" />
+        <option name="BASE_DIRECTORY_NAME" value="a6a3ced3-2e85-471b-807d-580f11ac0a8b" />
       </server-settings>
+      <log_file alias="Tomcat Manager Log" path="%IDEA_RUN:CATALINA_BASE%/logs/manager.*" />
+      <log_file alias="Tomcat Host Manager Log" path="%IDEA_RUN:CATALINA_BASE%/logs/host-manager.*" />
+      <log_file alias="Tomcat Localhost Access Log" path="%IDEA_RUN:CATALINA_BASE%/logs/localhost_access_log.*" />
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="55302" />
+        <option name="DEBUG_PORT" value="58345" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -247,60 +423,15 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b63b7a6a-6294-4def-a21f-2a2ced71fa9f" name="Changes" comment="" />
-      <created>1746273930197</created>
+      <changelist id="b63b7a6a-6294-4def-a21f-2a2ced71fa9f" name="Changes" comment=".idea" />
+      <created>1746451123743</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1746273930197</updated>
-      <workItem from="1746273931275" duration="127000" />
-      <workItem from="1746274065673" duration="1188000" />
-      <workItem from="1746280926405" duration="208000" />
-      <workItem from="1746281194602" duration="405000" />
-      <workItem from="1746281613850" duration="1910000" />
-      <workItem from="1746343264045" duration="59000" />
-      <workItem from="1746343330338" duration="9382000" />
+      <updated>1746451123743</updated>
+      <workItem from="1746451125740" duration="601000" />
+      <workItem from="1746451737496" duration="1417000" />
+      <workItem from="1746453185717" duration="873000" />
     </task>
-    <task id="LOCAL-00001" summary="JSP 파일 실행을 위한 기본적인 셋팅 파일">
-      <option name="closed" value="true" />
-      <created>1746280859791</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1746280859791</updated>
-    </task>
-    <task id="LOCAL-00002" summary="JSP 파일 실행을 위한 기본적인 셋팅 파일">
-      <option name="closed" value="true" />
-      <created>1746281277965</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1746281277965</updated>
-    </task>
-    <task id="LOCAL-00003" summary="추가 파일 커밋">
-      <option name="closed" value="true" />
-      <created>1746281417284</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1746281417284</updated>
-    </task>
-    <task id="LOCAL-00004" summary="부트스트랩 사용을 위한 파일 추가">
-      <option name="closed" value="true" />
-      <created>1746326551064</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1746326551064</updated>
-    </task>
-    <task id="LOCAL-00005" summary="img 디렉토리 위치 변경">
-      <option name="closed" value="true" />
-      <created>1746343614863</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1746343614863</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,34 +442,10 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="CSS-study-20250504" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="JSP 파일 실행을 위한 기본적인 셋팅 파일" />
-    <MESSAGE value="추가 파일 커밋" />
-    <MESSAGE value=".idea 파일 올라가지 않도록 gitignore 수정" />
-    <MESSAGE value="부트스트랩 사용을 위한 파일 추가" />
-    <MESSAGE value="img 디렉토리 위치 변경" />
-    <option name="LAST_COMMIT_MESSAGE" value="img 디렉토리 위치 변경" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>

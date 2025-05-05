@@ -30,7 +30,7 @@
     <link href="/resources/css/style.css" rel="stylesheet">
 
     <%--vue2 사용하기--%>
-    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <%--<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>--%>
 </head>
 <body>
 <div id="wrap">
