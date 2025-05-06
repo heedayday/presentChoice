@@ -1,13 +1,12 @@
-const vueMain = new Vue({
+new Vue({
     el: '#wrap',
     data: {
-        message: '안녕하세요, Vue!'
+        message: ''
     },
-    method:{
-        moveFocus() {
-            alert("도착");
+    methods:{
+        placehoderInput() {
+            this.message ="검색 내용을 입력하세요~!";
             this.$refs.searchInput.focus();
-            document.querySelector("#searchInputText").placeholder = "검색 내용을 입력하세요~!";
         }
     }
 });
