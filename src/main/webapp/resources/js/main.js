@@ -13,7 +13,7 @@
     
     
     // Initiate the wowjs
-    new WOW().init();
+    //new WOW().init();
 
 
     // Sticky Navbar
@@ -77,7 +77,7 @@
 
     // Modal Video
     $(document).ready(function () {
-        var $videoSrc;
+/*        var $videoSrc;
         $('.btn-play').click(function () {
             $videoSrc = $(this).data("src");
         });
@@ -89,7 +89,7 @@
 
         $('#videoModal').on('hide.bs.modal', function (e) {
             $("#video").attr('src', $videoSrc);
-        })
+        })*/
     });
 
 
