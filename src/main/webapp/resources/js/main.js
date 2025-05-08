@@ -68,11 +68,11 @@
     });
 
 
-    // Facts counter
+/*    // Facts counter
     $('[data-toggle="counter-up"]').counterUp({
         delay: 10,
         time: 2000
-    });
+    });*/
 
 
     // Modal Video
@@ -93,7 +93,7 @@
     });
 
 
-    // Testimonials carousel
+/*    // Testimonials carousel
     $(".testimonial-carousel").owlCarousel({
         autoplay: true,
         smartSpeed: 1000,
@@ -114,6 +114,6 @@
             }
         }
     });
-    
-})(jQuery);
+    */
+})(jQuery.noConflict());
 

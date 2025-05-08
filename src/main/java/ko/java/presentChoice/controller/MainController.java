@@ -14,7 +14,7 @@ public class MainController {
     @RequestMapping("/")
     public String index() {
         log.info("index");
-        System.out.println("info: index");
+        //System.out.println("info: index");
         return "index";
     }
 }
