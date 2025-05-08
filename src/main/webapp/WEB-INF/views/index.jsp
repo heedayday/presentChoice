@@ -66,7 +66,7 @@
                     </div>
                     <a href="contact.html" class="nav-item nav-link">추가 설명</a>
                 </div>
-                <a href="javaScript:;" @click="placehoderInput" class="btn btn-primary py-2 px-4">Search</a> <%----%>
+                <a href="javaScript:;" @click="placehoderInput" class="btn btn-primary py-2 px-4">Search</a>
             </div>
         </nav>
     </div>
@@ -77,8 +77,10 @@
                 <div class="col-lg-6 text-center text-lg-start">
                     <h1 class="display-3 text-white animated slideInLeft">오늘의 선물 추천</h1>
                     <p class="text-white animated slideInLeft mb-4 pb-2">다양한 선물들 사이에서 지인이나 가족, 친구들에게 주고 싶은 선물을 찾아보세요~!</p>
-                    <p><input class="searchInput"  id="searchInputText" ref="searchInput" type="text" :placeholder="message"/>
-                        <a href="javaScript:;" class="btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft">Search</a></p>
+                    <p><input class="searchInput" v-model="searchInputText"  id="searchInputText" ref="searchInput" type="text" :placeholder="message"/>
+                        <a href="javaScript:;" class="btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft" @click="search">Search</a>
+                        <select-category ref="selectCategory"></select-category>
+                    </p>
                 </div>
                 <div class="col-lg-6 text-center text-lg-end overflow-hidden">
                     <img class="img-fluid" src="/resources/img/gift-1.png" alt="">
@@ -103,9 +105,11 @@
 <script src="/resources/lib/tempusdominus/js/moment-timezone.min.js"></script>
 <script src="/resources/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
 
+<%@ include file="/WEB-INF/views/indexSearchCategoryButton.jsp" %>
+
 <!-- Template Javascript -->
 <script src="/resources/js/main.js"></script>
-<script src="/resources/js/views/indexComponent.js"></script>
+<script src="/resources/js/index/index.js"></script>
 
 
 </body>

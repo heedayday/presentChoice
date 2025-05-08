@@ -69,6 +69,11 @@
     height: 48px;
 }
 
+.btn-click {
+    background-color: #a0640d;
+    border-color: #a0640d;
+}
+
 .btn-square,
 .btn-sm-square,
 .btn-lg-square {
