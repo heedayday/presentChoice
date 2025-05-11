@@ -2,14 +2,15 @@ package ko.java.presentChoice.controller;
 
 import ko.java.presentChoice.service.SearchService;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 import org.apache.commons.lang3.StringUtils;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import java.util.List;
+import java.util.Map;
 
 @Controller
 @RequestMapping("/search")
@@ -36,6 +37,19 @@ public class SearchController {
         List<String> result = this.searchService.searchResultList();
         mav.addObject("result", result);
         return mav;
+    }
+
+    @PostMapping("/searchResultList.ajax")
+    @ResponseBody
+    public List<String> getSearchResultList(@RequestBody Map<String,Object> paramMap, Model model) {
+        String searchInputText = (String) paramMap.get("searchInputText");
+        List<String> selectedCategories = (List<String>) paramMap.get("selectedCategories");
+        model.addAttribute("searchInputText", searchInputText);
+        model.addAttribute("selectedCategories", selectedCategories);
+        System.out.println("검색어: " + searchInputText);
+        System.out.println("카테고리: " + selectedCategories);
+
+        return selectedCategories;
     }
 
 
