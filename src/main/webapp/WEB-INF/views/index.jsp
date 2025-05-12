@@ -26,6 +26,8 @@
     <!-- Template Stylesheet -->
     <link href="/resources/css/style.css" rel="stylesheet">
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <%--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>--%>
     <%--vue2 사용하기--%>
     <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
 </head>
@@ -94,7 +96,7 @@
 </div>
 
 <!-- JavaScript Libraries -->
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
 <script src="/resources/lib/easing/easing.min.js"></script>
 <script src="/resources/lib/wow/wow.min.js"></script>
