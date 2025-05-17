@@ -49,7 +49,14 @@ public class SearchController {
         System.out.println("검색어: " + searchInputText);
         System.out.println("카테고리: " + selectedCategories);
 
-        return selectedCategories;
+        try{
+            if(StringUtils.isBlank(searchInputText)) {
+                throw new IllegalArgumentException("검색어 입력값이 필요합니다.");
+            }
+            return selectedCategories;
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
     }
 
 
