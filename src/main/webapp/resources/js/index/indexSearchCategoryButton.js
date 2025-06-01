@@ -16,13 +16,24 @@ Vue.component('select-category',{
     },
     methods: {
         clickCategory(category) {
-            console.log("클릭 value : "+category.value);
-            console.log("클릭 clicked : "+category.clicked);
+            //console.log("클릭 value : "+category.value);
+            //console.log("클릭 clicked : "+category.clicked);
             if(category.clicked === 'btn-click'){
                 category.clicked ='';
             }else{
                 category.clicked ='btn-click';
             }
+            //Query 객체를 전달받는 자동실행 함수 예제
+            buttonList($(''));
+        },
+        clickReset(e){
+            //const target = e.target.parentElement;
+            //const $categoryList = $('#categoryList');
+            const $child = $('.categoryList').find('.btn-click');
+            $child.removeClass('btn-click');
+            console.dir($child);
+            /*$child.css('color', 'red');
+            * 참고로 해당코드는 style 끝에 추가함 style="font-size: 0.6rem; margin-top: 5px; color: red;" */
         }
     }
 });

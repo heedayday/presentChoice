@@ -9,7 +9,13 @@
             </a>
         </td>
     </tr>
+    <tr>
+        <td>
+
+        </td>
+    </tr>
 </table>
 </p>
 </script>
 <script src="/resources/js/index/indexSearchCategoryButton.js"></script>
+<script src="/resources/js/common/buttonList.js"></script>
