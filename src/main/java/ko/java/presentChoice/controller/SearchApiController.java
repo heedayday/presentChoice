@@ -20,12 +20,12 @@ public class SearchApiController {
     @Value("${naver.client.secret}")
     private String clientSecret;
 
-    public static void main(String[] args) {
+    public static void SearchApiController() {
 
-        List<String> clientInfo = getClient();
+        Map<String,String> clientInfoList = getClient();
 
-        String clientId = clientInfo.get(0); //애플리케이션 클라이언트 아이디
-        String clientSecret = clientInfo.get(1); //애플리케이션 클라이언트 시크릿
+        String clientId = clientInfoList.get("clientId"); //애플리케이션 클라이언트 아이디
+        String clientSecret = clientInfoList.get("clientSecret"); //애플리케이션 클라이언트 시크릿
 
 
         String text = null;
@@ -102,17 +102,16 @@ public class SearchApiController {
         }
     }
 
-    private static List<String> getClient(){
+    private static Map<String, String> getClient(){
         Properties props = new Properties();
-        String clientId="";
-        String clientSecret="";
+        Map<String, String> clientInfoList = new HashMap<>();
         try (InputStream input = new FileInputStream("src/main/resources/application.properties")) {
             props.load(input);
-            clientId = props.getProperty("naver.client.id");
-            clientSecret = props.getProperty("naver.client.secret");
+            clientInfoList.put("client_id", props.getProperty("client_id"));
+            clientInfoList.put("client_secret", props.getProperty("client_secret"));
         } catch (IOException e) {
             e.printStackTrace();
         }
-        return Arrays.asList(clientId,clientSecret);
+        return clientInfoList;
     }
 }
