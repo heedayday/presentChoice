@@ -23,8 +23,6 @@ Vue.component('select-category',{
             }else{
                 category.clicked ='btn-click';
             }
-            //Query 객체를 전달받는 자동실행 함수 예제
-            buttonList($(''));
         },
         clickReset(e){
             //const target = e.target.parentElement;
