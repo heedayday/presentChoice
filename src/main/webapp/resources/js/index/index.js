@@ -16,7 +16,13 @@ new Vue({
             this.message ="검색 내용을 입력하세요~!";
             this.$refs.searchInput.focus();
         },
-        search() {
+        naverSearchApi() {
+
+
+
+
+        },
+        basicSearchResult() {
             const searchInputText = this.searchInputText;
             const categories = this.$refs.selectCategory.categories;
             const selectedCategories = categories.filter(category => category.clicked != '');
@@ -56,32 +62,32 @@ new Vue({
                     },
                     complete: function () {
                         //console.log("완료이후");  // 8. 성공/실패와 관계없이 항상 실행
-                }
-            });
+                    }
+                });
             });
 
             searchResult
-            . then(data => {
-                data.forEach((text,count,array) => {
-                    console.log(count+"result: "+text.value);
-                    console.log(count+"result: "+text.name);
-                    console.log(count+"result: "+text.clicked);
-                    //템플릿 리터럴 문법 백틱(``) 으로 감싼 문자열 ${변수} 형식으로 변수를 문자열 안에 삽입
-                    console.log(`${count}result: ${array[count].value}`);
-                    console.log(`${count}result: ${array[count].name}`);
-                    console.log(`${count}result: ${array[count].clicked}`);
+                . then(data => {
+                    data.forEach((text,count,array) => {
+                        console.log(count+"result: "+text.value);
+                        console.log(count+"result: "+text.name);
+                        console.log(count+"result: "+text.clicked);
+                        //템플릿 리터럴 문법 백틱(``) 으로 감싼 문자열 ${변수} 형식으로 변수를 문자열 안에 삽입
+                        console.log(`${count}result: ${array[count].value}`);
+                        console.log(`${count}result: ${array[count].name}`);
+                        console.log(`${count}result: ${array[count].clicked}`);
+                    });
+                })
+                .catch(data => {
+                    alert("실패: " + data.status);        //HTTP 상태 코드 (예: `200`, `404`, `500`)
+                    //alert("실패: " + data.statusText);    //상태 코드 설명 문자열 (예: `"OK"`, `"Not Found"`)
+                    //alert("실패: " + data.responseText);  //서버가 응답한 **원본 텍스트** (예: JSON 문자열)
+                    alert("실패: " + data.response);      //서버가 응답한 **원본 텍스트** (예: JSON 문자열)
+                    //alert("실패: " + data.readyState);    //요청의 상태 (예: `4` = 요청 완료)
+                    //alert("실패: " + data.getAllResponseHeaders());//모든 응답 헤더를 문자열로 반환
+                    //alert("실패: " + data.getResponseHeader());   //특정 응답 헤더의 값을 가져옴
+                    //alert("실패: " + data.setRequestHeader());    //요청 헤더 설정 (보낼 때만 유효)
                 });
-            })
-            .catch(data => {
-                alert("실패: " + data.status);        //HTTP 상태 코드 (예: `200`, `404`, `500`)
-                //alert("실패: " + data.statusText);    //상태 코드 설명 문자열 (예: `"OK"`, `"Not Found"`)
-                //alert("실패: " + data.responseText);  //서버가 응답한 **원본 텍스트** (예: JSON 문자열)
-                alert("실패: " + data.response);      //서버가 응답한 **원본 텍스트** (예: JSON 문자열)
-                //alert("실패: " + data.readyState);    //요청의 상태 (예: `4` = 요청 완료)
-                //alert("실패: " + data.getAllResponseHeaders());//모든 응답 헤더를 문자열로 반환
-                //alert("실패: " + data.getResponseHeader());   //특정 응답 헤더의 값을 가져옴
-                //alert("실패: " + data.setRequestHeader());    //요청 헤더 설정 (보낼 때만 유효)
-            });
 
         }
     }

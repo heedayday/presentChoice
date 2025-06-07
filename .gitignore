@@ -33,3 +33,6 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+### 환경설정 파일 ###
+src/main/resources/application.properties
