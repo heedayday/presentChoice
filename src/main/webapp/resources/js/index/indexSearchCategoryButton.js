@@ -24,7 +24,7 @@ Vue.component('select-category',{
                 category.clicked ='btn-click';
             }
             //Query 객체를 전달받는 자동실행 함수 예제
-            buttonList($(''));
+            //buttonList($(''));
         },
         clickReset(e){
             //const target = e.target.parentElement;
