@@ -13,7 +13,6 @@ import java.util.List;
 import java.util.Map;
 
 @Controller
-@RequestMapping("/search")
 public class SearchController {
 
     private final SearchService searchService;
@@ -39,24 +38,6 @@ public class SearchController {
         return mav;
     }
 
-    @PostMapping("/searchResultList.ajax")
-    @ResponseBody
-    public List<String> getSearchResultList(@RequestBody Map<String,Object> paramMap, Model model) {
-        String searchInputText = (String) paramMap.get("searchInputText");
-        List<String> selectedCategories = (List<String>) paramMap.get("selectedCategories");
-        model.addAttribute("searchInputText", searchInputText);
-        model.addAttribute("selectedCategories", selectedCategories);
-        System.out.println("검색어: " + searchInputText);
-        System.out.println("카테고리: " + selectedCategories);
 
-        try{
-            if(StringUtils.isBlank(searchInputText)) {
-                throw new IllegalArgumentException("검색어 입력값이 필요합니다.");
-            }
-            return selectedCategories;
-        } catch (Exception e) {
-            throw new RuntimeException(e);
-        }
-    }
 
 }
