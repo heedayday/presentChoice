@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>PresentChoice</title>
+    <link rel="shortcut icon" href="#"> <%--GET http://localhost:8080/favicon.ico 404 (Not Found) 오류 안나오도록 임시수정--%>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
