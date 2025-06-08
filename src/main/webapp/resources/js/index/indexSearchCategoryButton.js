@@ -29,7 +29,7 @@ Vue.component('select-category',{
         clickReset(e){
             //const target = e.target.parentElement;
             //const $categoryList = $('#categoryList');
-            const $child = $('.categoryList').find('.btn-click');
+            const $child = $('.categoryList').find('.btn-click');     //import $ from 'jquery';  // 꼭 추가! 이부분이랑 관련이 있음 주석처리하면 오류남
             $child.removeClass('btn-click');
             console.dir($child);
             /*$child.css('color', 'red');

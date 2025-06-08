@@ -1,6 +1,6 @@
 (function ($) {
     "use strict";
-    //import $ from 'jquery';  // 꼭 추가!
+    import $ from 'jquery';  // 꼭 추가!
 
     // Spinner
     var spinner = function () {
